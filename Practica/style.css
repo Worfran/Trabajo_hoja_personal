@@ -1,0 +1,29 @@
+h1{
+    color:orange;
+}
+
+p{
+    text-align: right;
+}
+
+.description{
+    font-weight: bold;
+    color: blue;
+}
+
+.listas{
+    width: 300px;
+    background-color: lightgrey;
+    margin:10px;
+    display:block;
+    position: relative;
+}
+
+.parrafo{
+    width: 300px;
+    background-color: red;
+    top: 20px;
+    left: 25px;
+    display:block;
+    position: relative;
+}
