@@ -13,7 +13,7 @@ function renderSeriesInTable(series) {
     var average = getAverageSeasons(series);
     var table = document.getElementById('Table-series');
     var trElement = document.createElement("tr");
-    trElement.innerHTML = "<td colspan=\"3\">".concat("Average Seasons", "</td> \n                          <td>").concat(average, "</td>");
+    trElement.innerHTML = "<td colspan=\"3\">".concat("Average Seasons: ", "</td> \n                          <td>").concat(average, "</td>");
     table.insertAdjacentElement("afterend", trElement);
 }
 function getAverageSeasons(series) {
